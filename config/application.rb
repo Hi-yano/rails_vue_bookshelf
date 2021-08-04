@@ -36,3 +36,8 @@ module RailsVueBookshelf
     config.generators.system_tests = nil
   end
 end
+
+config.generators do |g|
+  g.assets false
+  g.helper false
+end
